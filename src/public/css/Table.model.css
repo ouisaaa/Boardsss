@@ -1,0 +1,45 @@
+/* 기본 테이블 스타일 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  /* 테이블 헤더 스타일 */
+  th {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    
+  }
+  /* 테이블 데이터 행 스타일 (짝수 행과 홀수 행을 번갈아 스타일링) */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  /* 테이블 데이터 셀 스타일 */
+  td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  td div:nth-child(1) {
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc; /* 가운데 줄 스타일 */
+    padding-bottom: 5px; /* 가운데 줄 아래 여백 (선택 사항) */
+  }
+  /* 테이블 마지막 행 스타일 (옵션) */
+  tr:last-child {
+    border-bottom: none;
+  }
+  
+  /* 호버 효과 (선택 사항) */
+  tr:hover {
+    background-color: #d9d9d9;
+  }
+  

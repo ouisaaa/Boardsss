@@ -1,0 +1,64 @@
+* {
+    text-align: center;
+  }
+
+  
+  /* 컨테이너 스타일 */
+  .container {
+    text-align: center; /* 내용 가운데 정렬 */
+    background-color: white; /* 주위 배경색 */
+    height: 100%;
+  }
+  
+  /* .box 스타일 */
+  .box {
+    text-align: center; /* 내용 가운데 정렬 */
+    background-color: #BFD9CA; /* .box 배경색 설정 */
+    padding: 20px; /* .box 내부 여백 추가 (선택 사항) */
+    padding-right: 40px;
+    border: 2px solid #BFBC8A;
+    border-radius: 5px; /* .box 모서리 둥글게 (선택 사항) */
+    margin: 20px auto; /* 수직 정렬을 위해 margin 사용 */
+    max-width: 600px; /* .box 최대 너비 설정 (선택 사항) */
+  }
+  
+  /* 제목 스타일 */
+  h1 {
+    margin-top: 0; /* 기본 위쪽 여백 제거 */
+  }
+  
+  /* 내용 입력란 스타일 */
+  input[type="text"] {
+    width: 100%; /* 너비를 100%로 설정하여 부모 요소에 맞게 확장 */
+    padding: 10px;
+    border: 2px solid #3B5659;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  textarea {
+    width: 100%; /* 너비를 100%로 설정하여 부모 요소에 맞게 확장 */
+    padding: 10px;
+    border: 2px solid #3B5659;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    height: 150px;
+  }
+  
+  /* 버튼 스타일 */
+  input[type="button"] {
+    background-color: #F2D5BB;
+    color: black;
+    border: 1px solid #3B5659;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  /* 버튼 호버 효과 */
+  input[type="button"]:hover {
+    background-color: #A68D77;
+  }
+  .header{
+    text-align: center; /* 내용 가운데 정렬 */
+    background-color: white; /* 주위 배경색 */
+  }
