@@ -1,3 +1,10 @@
+# 게시판 프로젝트
+서경대 SW 인재 양성 사업 수업 시간에 계속 배운 html, css, javascript, react, nodeJS, mysql 에 대해서 공부 할겸 시작한 프로젝트
+
+## 참고사항
+https://www.notion.so/My-Board-1ffb0b8d67ba4239b15583839c1cb65c?pvs=4
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
