@@ -4,6 +4,19 @@
 ## 참고사항
 https://www.notion.so/My-Board-1ffb0b8d67ba4239b15583839c1cb65c?pvs=4
 
+# Front
+## Skills
+- React
+
+# Back
+## Skills
+- nodeJS
+
+# DB
+## Skills
+- MySQL
+
+
 
 # Getting Started with Create React App
 
